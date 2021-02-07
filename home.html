@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+header {
+  background-color: #666; #image would be better
+  padding: 30px;
+  text-align: center;
+  font-size: 60px;
+  color: white;
+}
+footer {
+  background-color: #777;
+  width:98%;
+  color: white;
+  bottom: 0px;
+  position: absolute;
+}
+footer div {
+  float: left;
+  width: 200px;
+  text-align: center;
+  padding: 10px 0;
+}
+footer div:hover {
+  background-color: #999;
+}
+</style>
+</head>
+<body>
+<header> Marché Local </header>
+<p>Bienvenue au Marché Local, où vous pouvez explorer les produits locaux de chez nous.</p>
+
+<label for="productname">Que recherchez-vous?</label><br>
+<input type="text" id="productname" name="productname" placeholder="carotte, maïs, fraise, ...">
+<button onclick="alert('Problème de lecture de la base de donnée')">Chercher</button><br>
+<button onclick="alert('Redirection vers une autre page')">Vendre un produit</button><br>
+<footer>
+	<div onclick="alert('oops, I think I broke it!')">Contacts</div>
+    <div onclick="alert('EEEEEE')">À propos</div>
+</footer>
+</body>
+</html>
